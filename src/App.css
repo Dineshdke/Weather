@@ -1,0 +1,28 @@
+.parent {
+  display: flex ;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50vh;
+}
+
+.weather-cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.weather-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p{
+  text-align: center;
+}
+
+body{
+  background-color: aqua;
+}
